@@ -1,9 +1,9 @@
 ﻿# drone_dev_summer_2024
 ## TODO
-- [ ] custom mavlink message
-- [ ] build custom QGC
 - [ ] MAVLink ver WiFi UDP <-> QGC
 - [ ] MAVLink over LoRa serial <-> QGC
+- [ ] custom mavlink message
+- [ ] build custom QGC
 - [ ] TTN webhook -> Thingspeak (if found better use better)
 - [ ] power consumption test (idle, sleep mode, active mode, with and without routing etc)
 - [ ] help develop physical tests
