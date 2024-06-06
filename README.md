@@ -1,7 +1,8 @@
 ﻿# drone_dev_summer_2024
 ## TODO
-- [ ] MAVLink ver WiFi UDP <-> QGC
-- [ ] MAVLink over LoRa serial <-> QGC
+- [x] MAVLink ver WiFi UDP <-> QGC
+- [ ] QGC <-> LoRaWAN gateway over UDP 
+- [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
 - [ ] custom mavlink message
 - [ ] build custom QGC
 - [ ] TTN webhook -> Thingspeak (if found better use better)
