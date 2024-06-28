@@ -1,6 +1,6 @@
 ﻿# drone_dev_summer_2024
 ## TODO
-- [ ] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
+- [x] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
 - [ ] QGC <-> LoRaWAN gateway over UDP 
 - [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
 - [ ] custom mavlink message
