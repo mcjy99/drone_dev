@@ -11,9 +11,6 @@
 - [ ] data collection
 
 ## Zerotier Setup
-### On Jetson Terminal (Ubuntu)
-- Change 9e1948db6317a4d2 to network ID in the Zerotier website network created.
-
 ### On Windows 
 - Sign in to Zerotier. (https://www.zerotier.com/)
 - Download Zerotier 1.6.6 for Windows 11. (https://download.zerotier.com/RELEASES/1.6.6/dist/ZeroTier%20One.msi)
@@ -22,6 +19,9 @@
 - Find the Zerotier One icon by clicking the arrow on the status bar on the window's bottom right.
 - Select "Join a Network".
 - Paste the network ID in and click "Join"
+
+### On Jetson Terminal (Ubuntu)
+- Run the ubuntuzerotiersetup.sh by changing the 9e1948db6317a4d2 to network ID in the Zerotier website network created.
 
 ### Connection
 - Disconnected all wifi and open a command prompt and type "ipconfig" for Windows or "ifconfig" for Ubuntu/Linux.  
