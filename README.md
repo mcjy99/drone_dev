@@ -27,6 +27,9 @@
 - Disconnected all wifi and open a command prompt and type "ipconfig" for Windows or "ifconfig" for Ubuntu/Linux.  
 - Run the start-mav-route.sh by changing the IP address to the QGC device IP address without using Wifi.
 
+## Glossary
+- QGC-QGroundControl
+
 ## Links
 ### PX4 development setup
 https://docs.px4.io/main/en/dev_setup/dev_env_windows_wsl.html  
