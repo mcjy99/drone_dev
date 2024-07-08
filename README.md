@@ -1,14 +1,31 @@
 ﻿# drone_dev_summer_2024
 ## TODO
-- [ ] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
-- [ ] QGC <-> LoRaWAN gateway over UDP 
+- [X] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
+- [X] QGC <-> LoRaWAN gateway over UDP 
 - [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
 - [ ] custom mavlink message
 - [ ] build custom QGC
 - [ ] TTN webhook -> Thingspeak (if found better use better)
 - [ ] power consumption test (idle, sleep mode, active mode, with and without routing etc)
 - [ ] help develop physical tests
-- [ ] data collection 
+- [ ] data collection
+
+## Zerotier Setup
+### On Jetson Terminal (Ubuntu)
+- Change 9e1948db6317a4d2 to network ID in the Zerotier website network created.
+
+### On Windows 
+- Sign in to Zerotier. (https://www.zerotier.com/)
+- Download Zerotier 1.6.6 for Windows 11. (https://download.zerotier.com/RELEASES/1.6.6/dist/ZeroTier%20One.msi)
+- Sign in to Zerotier Central. (https://my.zerotier.com/)
+- Create a network and copy the network ID.
+- Find the Zerotier One icon by clicking the arrow on the status bar on the window's bottom right.
+- Select "Join a Network".
+- Paste the network ID in and click "Join"
+
+### Connection
+- Disconnected all wifi and open a command prompt and type "ipconfig" for Windows or "ifconfig" for Ubuntu/Linux.  
+- Run the start-mav-route.sh by changing the IP address to the QGC device IP address without using Wifi.
 
 ## Links
 ### PX4 development setup
