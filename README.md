@@ -2,13 +2,11 @@
 ## TODO
 - [X] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
 - [X] QGC <-> LoRaWAN gateway over UDP 
-- [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
-- [ ] custom mavlink message
-- [ ] build custom QGC
-- [ ] TTN webhook -> Thingspeak (if found better use better)
-- [ ] power consumption test (idle, sleep mode, active mode, with and without routing etc)
-- [ ] help develop physical tests
+- [X] TTN API -> Node-red dashboard
+- [ ] develop node-red dashboard for testing
+- [ ] test plan mission function on QGC with SITL and HITL
 - [ ] data collection
+- [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
 
 ## Zerotier Setup
 ### On Windows 
