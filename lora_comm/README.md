@@ -9,7 +9,9 @@
    ```
    mavlink-routerd /dev/ttyACM0 -e 127.0.0.2:14550 -e 192.168.43.194:14550 -r
    ```
-2. Run **grove_switch.py**
+   **If used with SITL, make sure the UDP port it is forwarding from is correct**
+   
+3. Run **grove_switch.py**
    ```
    python3 grove_switch.py
    ```
