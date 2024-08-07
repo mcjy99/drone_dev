@@ -6,7 +6,7 @@ import subprocess
 import socket
 import time
 
-server_ip = "127.0.0.2" 
+server_ip = "127.0.0.2" #depends on local port mavlink-router directs to
 server_port = 14550
 ser = serial.Serial('/dev/ttyTHS1')  # UART to LoRa module 
 
