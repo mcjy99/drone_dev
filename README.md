@@ -3,9 +3,9 @@
 - [X] MAVLink over WiFi UDP <-> QGC (test performance with mavros/mavlink-router)
 - [X] QGC <-> LoRaWAN gateway over UDP 
 - [X] TTN API -> Node-red dashboard
-- [ ] develop node-red dashboard for testing
-- [ ] test plan mission function on QGC with SITL and HITL
-- [ ] data collection
+- [X] develop node-red dashboard for testing
+- [X] test plan mission function on QGC with SITL and HITL
+- [X] data collection
 - [ ] MAVLink over LoRa serial <-> QGC (on hold, TBD)
 
 ## Zerotier Setup
